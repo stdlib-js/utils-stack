@@ -230,7 +230,7 @@ tape( 'if an environment supports `Symbol.iterator`, a stack instance iterator i
 	var i;
 
 	Stack = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	s = new Stack();
@@ -260,7 +260,7 @@ tape( 'if an environment does not support `Symbol.iterator`, a stack instance it
 	var s;
 
 	Stack = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	s = new Stack();
