@@ -340,6 +340,12 @@ len = stack.length;
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/fifo`][@stdlib/utils/fifo]: first-in-first-out (FIFO) queue.
+
 </section>
 
 <!-- /.related -->
@@ -400,6 +406,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-stack/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/fifo]: https://github.com/stdlib-js/utils-fifo
+
+<!-- </related-links> -->
 
 </section>
 
