@@ -20,7 +20,7 @@ limitations under the License.
 
 # Stack
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Stack data structure.
 
@@ -344,7 +344,7 @@ len = stack.length;
 
 ## See Also
 
--   [`@stdlib/utils/fifo`][@stdlib/utils/fifo]: first-in-first-out (FIFO) queue.
+-   <span class="package-name">[`@stdlib/utils/fifo`][@stdlib/utils/fifo]</span><span class="delimiter">: </span><span class="description">first-in-first-out (FIFO) queue.</span>
 
 </section>
 
@@ -395,8 +395,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-stack/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-stack?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-stack.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-stack/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
