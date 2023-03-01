@@ -352,7 +352,7 @@ len = stack.length;
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/fifo`][@stdlib/utils/fifo]</span><span class="delimiter">: </span><span class="description">first-in-first-out (FIFO) queue.</span>
+-   <span class="package-name">[`@stdlib/utils-fifo`][@stdlib/utils/fifo]</span><span class="delimiter">: </span><span class="description">first-in-first-out (FIFO) queue.</span>
 
 </section>
 
