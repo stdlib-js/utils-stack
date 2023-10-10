@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-stack/tags). For example,
+
+```javascript
 import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.1.1-deno/mod.js';
 ```
 
@@ -277,7 +282,7 @@ var o = s.toJSON();
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.1.1-deno/mod.js';
+import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@deno/mod.js';
 
 var stack;
 var iter;
