@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@deno/mod.js';
+import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.2.0-deno/mod.js';
 ```
 
 #### stack()
@@ -277,7 +277,7 @@ var o = s.toJSON();
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@deno/mod.js';
+import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.2.0-deno/mod.js';
 
 var stack;
 var iter;
