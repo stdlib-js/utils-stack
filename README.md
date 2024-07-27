@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-stack/tags). For example,
+
+```javascript
 import stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.2.2-esm/index.mjs';
 ```
 
@@ -282,7 +287,7 @@ var o = s.toJSON();
 <body>
 <script type="module">
 
-import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@v0.2.2-esm/index.mjs';
+import Stack from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-stack@esm/index.mjs';
 
 var stack;
 var iter;
